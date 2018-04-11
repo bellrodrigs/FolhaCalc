@@ -317,8 +317,6 @@ public class TelaNovoCadastro1 extends javax.swing.JFrame {
         jLabel21.setBounds(30, 360, 50, 17);
         getContentPane().add(TXTPassagem);
         TXTPassagem.setBounds(740, 470, 70, 30);
-
-        rg.setEditable(false);
         getContentPane().add(rg);
         rg.setBounds(390, 200, 270, 30);
 
