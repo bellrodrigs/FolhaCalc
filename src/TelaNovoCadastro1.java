@@ -115,8 +115,6 @@ public class TelaNovoCadastro1 extends javax.swing.JFrame {
         datanascimento = new javax.swing.JTextField();
         cpf = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        rg = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         ctps = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
@@ -146,6 +144,8 @@ public class TelaNovoCadastro1 extends javax.swing.JFrame {
         jLabel19 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
         TXTPassagem = new javax.swing.JTextField();
+        rg = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
         tel1 = new javax.swing.JTextField();
         jLabel20 = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
@@ -178,25 +178,17 @@ public class TelaNovoCadastro1 extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Data Nasc.:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(680, 160, 90, 17);
+        jLabel4.setBounds(30, 210, 90, 17);
         getContentPane().add(datanascimento);
-        datanascimento.setBounds(770, 150, 220, 30);
+        datanascimento.setBounds(120, 200, 190, 30);
         getContentPane().add(cpf);
-        cpf.setBounds(90, 200, 220, 30);
+        cpf.setBounds(760, 150, 230, 30);
 
         jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("CPF:");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(30, 210, 50, 17);
-
-        jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setText("RG:");
-        getContentPane().add(jLabel6);
-        jLabel6.setBounds(350, 210, 50, 17);
-        getContentPane().add(rg);
-        rg.setBounds(390, 200, 220, 30);
+        jLabel5.setBounds(710, 160, 50, 17);
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -325,6 +317,16 @@ public class TelaNovoCadastro1 extends javax.swing.JFrame {
         jLabel21.setBounds(30, 360, 50, 17);
         getContentPane().add(TXTPassagem);
         TXTPassagem.setBounds(740, 470, 70, 30);
+
+        rg.setEditable(false);
+        getContentPane().add(rg);
+        rg.setBounds(390, 200, 270, 30);
+
+        jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel6.setText("RG:");
+        getContentPane().add(jLabel6);
+        jLabel6.setBounds(340, 210, 50, 17);
         getContentPane().add(tel1);
         tel1.setBounds(90, 300, 220, 30);
 

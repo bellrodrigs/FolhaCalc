@@ -166,29 +166,31 @@ public class TelaInfoFuncionario extends javax.swing.JFrame {
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("Data Nasc.:");
         getContentPane().add(jLabel4);
-        jLabel4.setBounds(680, 160, 90, 17);
+        jLabel4.setBounds(30, 210, 90, 17);
 
         datanascimento.setEditable(false);
         getContentPane().add(datanascimento);
-        datanascimento.setBounds(770, 150, 220, 30);
+        datanascimento.setBounds(120, 200, 190, 30);
+
+        cpf.setEditable(false);
         getContentPane().add(cpf);
-        cpf.setBounds(90, 200, 220, 30);
+        cpf.setBounds(760, 150, 230, 30);
 
         jLabel5.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("CPF:");
         getContentPane().add(jLabel5);
-        jLabel5.setBounds(30, 210, 50, 17);
+        jLabel5.setBounds(710, 160, 50, 17);
 
         jLabel6.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("RG:");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(350, 210, 50, 17);
+        jLabel6.setBounds(340, 210, 50, 17);
 
         rg.setEditable(false);
         getContentPane().add(rg);
-        rg.setBounds(390, 200, 220, 30);
+        rg.setBounds(390, 200, 270, 30);
 
         jLabel7.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -255,6 +257,8 @@ public class TelaInfoFuncionario extends javax.swing.JFrame {
         jLabel13.setText("Cód. Funcionário:");
         getContentPane().add(jLabel13);
         jLabel13.setBounds(30, 120, 140, 17);
+
+        IdFuncionario.setEditable(false);
         getContentPane().add(IdFuncionario);
         IdFuncionario.setBounds(160, 110, 140, 30);
 
